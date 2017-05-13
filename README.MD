@@ -5,6 +5,8 @@ License: GPLv2 or later
 
 License URI: http://www.gnu.org/licenses/gpl.html
 
+
+
 Tags: AMP contact, AMP, contact, form,  contact form, contact form plugin, contacts, contacts form plugin,  feedback form
 
 
@@ -35,3 +37,5 @@ To place the contact form on your page use the shortcode `[ampfc-contact-form]`
 A Project by Dankedev for 
 
 ![ampinstant](https://raw.githubusercontent.com/dankedev/ampinstant/master/logo.png )
+
+![Download here](https://github.com/dankedev/ampcontactform/archive/master.zip)
