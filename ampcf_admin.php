@@ -39,6 +39,7 @@ class ampcf_admin
             $this,
             'print_section_info_message'
         ), 'amp-contact-form-settings');
+
         add_settings_field('recipient_emails', __('Recipient Emails :', 'ampcontactform'), array(
             $this,
             'create_fields'

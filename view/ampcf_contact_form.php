@@ -41,19 +41,19 @@ function ampfc_ContactForm(){
         <input type="hidden" name="post-id" value="<?php echo $post->ID; ?>">
             <fieldset>
                 <div class="form-group">
-                    <label for="ampcf_name">Name</label>
+                    <label for="ampcf_name"><?php _e( 'Name', 'ampcontactform' ); ?></label>
                     <input type="text" class="form-input" name="ampfc[name]" id="ampcf_name" placeholder="<?php _e( 'Name', 'ampcontactform' ); ?>" required>
                 </div>
                 <div class="form-group">
-                    <label for="ampcf_email">Email</label>
+                    <label for="ampcf_email"><?php _e( 'Email', 'ampcontactform' ); ?></label>
                     <input type="email" class="form-input" name="ampfc[email]" id="ampcf_email" placeholder="<?php _e( 'Email Address', 'ampcontactform' ); ?>" required>
                 </div>
                 <div class="form-group">
-                    <label for="ampcf_confirm_email">Confirm Email</label>
+                    <label for="ampcf_confirm_email"><?php _e( 'Confirm Email', 'ampcontactform' ); ?></label>
                     <input type="email" class="form-input" name="ampfc[confirm_email]" id="ampcf_confirm_email" placeholder="<?php _e( 'Confirm Email Address', 'ampcontactform' ); ?>" required>
                 </div>
                 <div class="form-group">
-                    <label for="ampcf_message">Confirm Email</label>
+                    <label for="ampcf_message"><?php _e( 'Message', 'ampcontactform' ); ?></label>
                     <textarea  class="form-input" name="ampfc[message]" id="ampcf_message" placeholder="<?php _e( 'Your Message', 'ampcontactform' ); ?>" rows="10" required></textarea>
                 </div>
                 <div class="form-group">
